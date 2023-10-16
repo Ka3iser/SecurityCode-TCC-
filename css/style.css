@@ -39,7 +39,7 @@ nav{
 
 main{
     background-color: aliceblue;
-    height: 400vh;
+    height: 380vh;
 }
 
 h2{
@@ -101,7 +101,6 @@ p{
 /* Section 2 */
 
 #SobreNos{
-    height: 100vh;
     margin-top: 10vh;
 }
 
@@ -109,10 +108,6 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 15vh 65vh;
-    background-color: #6A6D73;
-    color: white;
-    margin-left: 2vh;
-    margin-right: 2vh;
     height: 80vh;
 }
 
@@ -127,4 +122,37 @@ p{
 #historia{
     width: 85vh;
     justify-self: center;
+}
+
+/* section 3 */
+
+.bg{
+    background-color: #6A6D73;
+    color: white;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+#clientes{
+    text-align: center;
+}
+
+/* section 4 */
+
+#contato2{
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: #992CF5;
+    color: whitesmoke;
+    height: 15vh;
+}
+
+h3{
+    font-size: 3vh;
 }
